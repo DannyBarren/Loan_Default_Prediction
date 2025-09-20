@@ -33,7 +33,7 @@ Builds an MLP (128-64-32-1 layers, ReLU, dropout for regularization). Compiles w
 ### Evaluation: 
 Computes AUC-ROC (~0.73), plots ROC curve and loss/accuracy histories. 
 
-###Bonus: 
+### Bonus: 
 Optimizes threshold via precision-recall curve, jumping sensitivity from ~0.03 to ~0.46—huge for catching more defaults.
 
 Runtime: 20-30 mins on CPU (SMOTE and training are the bottlenecks). Use a GPU for speed.
